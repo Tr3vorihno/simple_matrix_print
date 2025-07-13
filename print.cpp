@@ -1,3 +1,5 @@
+// 13/07/2025
+
 #include<iostream>
 #include<string>
 
@@ -5,8 +7,12 @@ using namespace std;
 
 int lenght(char v[]);
 void riempiStr(char v[],int dim);
-char str[]="Lorem ipsum dolor sit amet";
 
+
+//======================================
+//INSERT IN THIS CHAR VECTOR THE STRING YOU WANT TO PRINT
+char str[]="Lorem ipsum dolor sit amet";
+//======================================
 
 int main(){
 	const int dim = lenght(str);
